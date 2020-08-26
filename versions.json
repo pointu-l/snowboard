@@ -1,6 +1,6 @@
 {
-  "desktop": "3.0.7.1",
-  "touch": "2.0.4",
+  "desktop": "3.0.8.force-update",
+  "touch": "2.0.6.force-update",
   "retro": "1.1.9",
   "snowboard": "1.0.0-beta.7"
 }
