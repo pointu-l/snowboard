@@ -1,6 +1,6 @@
 {
-  "desktop": "3.0.9",
-  "touch": "2.0.8",
-  "retro": "1.2.1",
-  "snowboard": "1.0.0-beta.8"
+  "desktop": "maintenance.3.0.9",
+  "touch": "maintenance.2.0.8",
+  "retro": "maintenance.1.2.1",
+  "snowboard": "maintenance.1.0.0-beta.8"
 }
