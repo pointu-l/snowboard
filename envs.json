@@ -1,5 +1,5 @@
 {
-  "desktop": "maintenance.3.0.8.force-update",
-  "touch": "maintenance.2.0.6.force-update",
+  "desktop": "3.0.9",
+  "touch": "2.0.8",
   "retro": "maintenance.1.1.9"
 }
