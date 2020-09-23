@@ -1,5 +1,5 @@
 {
-  "desktop": "-default",
-  "touch": "-default",
+  "desktop": "-base-env",
+  "touch": "-base-env",
   "retro": "maintenance.1.1.9"
 }
