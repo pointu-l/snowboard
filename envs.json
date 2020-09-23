@@ -1,5 +1,5 @@
 {
-  "desktop": "3.0.9",
-  "touch": "2.0.8",
+  "desktop": "-default",
+  "touch": "-default",
   "retro": "maintenance.1.1.9"
 }
