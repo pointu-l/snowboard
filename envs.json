@@ -1,6 +1,6 @@
 {
   "desktop": "-base-env",
   "touch": "-base-env",
-  "retro": "maintenance.1.1.9",
+  "retro": "-base-env",
   "winter": "-base-env"
 }
