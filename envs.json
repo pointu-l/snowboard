@@ -2,5 +2,5 @@
   "desktop": "-base-env",
   "touch": "-base-env",
   "retro": "-base-env",
-  "winter": "-base-env"
+  "winter": "2.0.0-pre-alpha.2"
 }
