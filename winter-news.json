@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Winter v2.0.0-pre-alpha.3",
+    "date": "17 octobre 2020",
+    "time": "02:30",
+    "changes": {
+      "ajouts": [
+        "test1"  
+      ],
+      "modifications": [
+        "test2"
+      ],
+      "corrections": [
+        "test3"
+      ]
+    }
+  }  
+]
