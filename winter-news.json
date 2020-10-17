@@ -1,12 +1,35 @@
 [
-  {
-    "title": "Winter v2.0.0-pre-alpha.3",
-    "date": "17 octobre 2020",
-    "time": "03:10",
-    "changes": {
-      "corrections": [
-        "Une anomalie provoquait l'apparition d'une grille supplémentaire"
-      ]
+    {
+        "title": "Winter v2.0.0-pre-alpha.4",
+        "date": "18 octobre 2020",
+        "time": "02:00",
+        "changes": {
+            "nouveautés": [
+                "Nouvelle fenêtre pour configurer, modifier et ajouter vos banques !",
+                "Le bouton pour gérer les banques n'est plus bloqué, et ouvre la nouvelle fenêtre banques",
+                "Les banques sont insérés dans les trajets exportés par Winter",
+                "Il est possible de choisir les banques à ajouter au trajet pour ne pas surcharger le script final",
+                "Fonctionnalité proposée par Maegal#3447 : il est désormais possible de supprimer tous les déplacements et actions d'un trajet en 1 clique",
+                "Pour distinguer les boutons des menus déroulants, une icone '▾' est ajoutée"
+            ],
+            "changements": [
+                "Le bouton gomme n'est plus rouge, il est bleu, ce qui signifie 'Gommer tous les types d'actions'",
+                "Le bouton gomme n'est plus (vraiment) un bouton, c'est un menu déroulant qui permet d'accéder à la gomme bleu et de supprimer toutes les actions et déplacement du trajet. Il permettra également de configurer la gomme pour effacer spécifiquement les déplacements, combats, récoltes, banques et phénix",
+                "Le menu déroulant gomme redevient un bouton quand une gomme est utilisée (il prend la couleur de la gomme active), permettant de reposer la gomme en cliquant dessus. Pour changer de gomme il faut donc double-cliquer"
+            ],
+            "suppressions": [
+                "L'étiquette 'popup' affichant 'Gomme' a été supprimée car elle gène l'utilisation du menu déroulant"
+            ]
+        }
+    },
+    {
+        "title": "Winter v2.0.0-pre-alpha.3",
+        "date": "17 octobre 2020",
+        "time": "03:10",
+        "changes": {
+            "corrections": [
+                "Une anomalie provoquait l'apparition d'une grille supplémentaire"
+            ]
+        }
     }
-  }  
 ]
