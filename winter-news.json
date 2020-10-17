@@ -7,7 +7,7 @@
             "nouveautés": [
                 "Nouvelle fenêtre pour configurer, modifier et ajouter vos banques !",
                 "Le bouton pour gérer les banques n'est plus bloqué, et ouvre la nouvelle fenêtre banques",
-                "Les banques sont insérés dans les trajets exportés par Winter",
+                "Les banques sont insérées dans les trajets exportés par Winter",
                 "Il est possible de choisir les banques à ajouter au trajet pour ne pas surcharger le script final",
                 "Fonctionnalité proposée par Maegal#3447 : il est désormais possible de supprimer tous les déplacements et actions d'un trajet en 1 clique",
                 "Pour distinguer les boutons des menus déroulants, une icone '▾' est ajoutée"
