@@ -1,5 +1,23 @@
 [
     {
+        "title": "Winter v2.0.0-alpha.1",
+        "date": "25 octobre 2020",
+        "time": "03:00",
+        "changes": {
+            "nouveautés": [
+                "Mode phénix (incomplet)",
+                "Deux nouveaux boutons pour préparer les prochaines mises à jour",
+                "Afficher banque/phenix fonctionne"
+            ],
+            "changements": [
+                "Amélioration de l'interface"
+            ],
+            "corrections": [
+                "Bug des flèches et des contours de la map qui bougeaient"
+            ]
+        }
+    },
+    {
         "title": "Winter v2.0.0-pre-alpha.4(.1)",
         "date": "18 octobre 2020",
         "time": "02:00",
