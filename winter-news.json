@@ -1,5 +1,15 @@
 [
     {
+        "title": "Winter v2.0.0-alpha.2",
+        "date": "26 octobre 2020",
+        "time": "03:30",
+        "changes": {
+            "corrections": [
+                "Suppression du debug banque 'ok'"
+            ]
+        }
+    },
+    {
         "title": "Winter v2.0.0-alpha.1",
         "date": "25 octobre 2020",
         "time": "03:00",
