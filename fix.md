@@ -73,6 +73,7 @@ PacketAnalyser.onMapData -> fix double-sun-line on left of retro's maps
 > Ne pas génerer de déplacements "bottom" hors de la map
 >  (Pas un fix, juste un bypass. Un bug plus profond dans la gestion des maps est présent -> on ne devrait jamais aller au dela de 478 à la base)
 PathfindingRetro.findpath -> wrap in anti-y-cell overflow condition
+> Edit : detecté avant le bug de loadSprites, peut-être plus nécessaire
 ```csharp
     // exemple
     else if (num3 <= 478) // add
