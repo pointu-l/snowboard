@@ -56,7 +56,7 @@ PacketAnalyser.onMapData -> fix double-sun-line on bottom of retro's maps
 ```
 
 > Fix la détection des soleils "left"
-PacketAnalyser.onMapData -> fix double-sun-line on bottom of retro's maps
+PacketAnalyser.onMapData -> fix double-sun-line on left of retro's maps
 ```csharp                       
     // exemple
     if (xcoord - 1 == num2 || xcoord - 2 == num2)
