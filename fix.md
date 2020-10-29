@@ -1,4 +1,4 @@
-# Fix Snowbot Retro 1.3.0
+# Projet Snowbot Retro 1.3.0, mais sans les bugs
 ## Par Plume
 
 ### Combats
