@@ -84,7 +84,7 @@ PathfindingRetro.findpath -> wrap in anti-y-cell overflow condition
     } else if (num3 > 478) { //...
 ```
 
-PathfindingRetro.loadSprites -> ignore lineOfSight
+PathfindingRetro.loadSprites -> exclude lineOfSight & LGN44
 ```csharp
     // exemple
     if (mapHandler[num] != null)
@@ -97,4 +97,8 @@ PathfindingRetro.loadSprites -> ignore lineOfSight
     	{
     		this.closelist.Add(num);
     	}
+	else if (mapHandler[num].layerGroundNum == 44)
+	{
+		this.closelist.Add(num);
+	}
 ```
