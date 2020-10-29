@@ -11,7 +11,7 @@ PacketFight.MoveToCell -> don't reinit pathfindingRetro
 	{
         if (this.IsHandToHand(pathfindingRetro.PathcellGone[j]))
         {
-            // here pathfindingRetro is the same used before in the function. It will ensure pathfindingRetro.PathcellGone[j] is set
+            // pathfindingRetro = new PathfindingRetro(...);
             text = Conversions.ToString(pathfindingRetro.pathing(this._mitm.PacketAnalyser._cellsRetro, list, this.GetFighter(this._mitm.PacketAnalyser.idperso).CellId, pathfindingRetro.PathcellGone[j], this._mitm.PacketAnalyser._width, false, true, this.PointsMovement));
 ```
 
@@ -39,7 +39,7 @@ PacketAnalyser.OnNewLevel -> add this._mitm.Setlevel(this._level) call;
 ```csharp
     // exemple
     this._level = Conversions.ToInteger(param1);
-    this._mitm.Setlevel(this._level);
+    this._mitm.Setlevel(this._level); // add
 ```
 
 ### Map
@@ -48,11 +48,13 @@ PacketAnalyser.OnNewLevel -> add this._mitm.Setlevel(this._level) call;
 PacketAnalyser.onMapData -> fix double-sun-line on bottom of retro's maps
 ```csharp                       
     // exemple
-    bool flag12 = xcoord + num2 == 2 * this._height - 3; // before ...
+    // before ...
+    if (xcoord + num2 == 2 * this._height - 3)
+    
     // ... after :
     int xRow = xcoord + num2;
     int ySize = 2 * this._height;
-    bool flag12 = (xRow == ySize - 3) || (xRow == ySize - 4);
+    if ((xRow == ySize - 3) || (xRow == ySize - 4))
 ```
 
 > Fix la détection des soleils "left"
@@ -73,7 +75,7 @@ PacketAnalyser.onMapData -> fix double-sun-line on left of retro's maps
 PathfindingRetro.findpath -> wrap in anti-y-cell overflow condition
 ```csharp
     // exemple
-    else if (num3 <= 478)
+    else if (num3 <= 478) // add
     {
     	this.openlist.Add(num3);
     	this.openlist[this.openlist.Count - 1] = num3;
@@ -93,11 +95,11 @@ PathfindingRetro.loadSprites -> exclude lineOfSight & LGN44
     	{
     		this.closelist.Add(num);
     	}
-        else if (mapHandler[num].lineOfSight)
+        else if (mapHandler[num].lineOfSight) // add
     	{
     		this.closelist.Add(num);
     	}
-	else if (mapHandler[num].layerGroundNum == 44)
+	else if (mapHandler[num].layerGroundNum == 44) // add
 	{
 		this.closelist.Add(num);
 	}
