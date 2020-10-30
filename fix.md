@@ -96,10 +96,10 @@ PathfindingRetro.loadSprites -> exclude lineOfSight & LGN44
     	{
     		this.closelist.Add(num);
     	}
-        else if (mapHandler[num].lineOfSight) // add
-    	{
-    		this.closelist.Add(num);
-    	}
+        // else if (mapHandler[num].lineOfSight)
+    	// {
+    	//	this.closelist.Add(num);
+    	// }
 	else if (mapHandler[num].layerGroundNum == 44) // add
 	{
 		this.closelist.Add(num);
