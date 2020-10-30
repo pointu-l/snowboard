@@ -27,7 +27,7 @@ Inventory.UseItem -> use correct data source
         if (string.Concat(num) == ObjectIdName)
         {
             // use inventoryItem2 to get GUID
-            result = (int)this._mitm.PacketAnalyser.inventoryitem2[num2];
+            result = (int)this._mitm.PacketAnalyser.inventoryitem2[num];
         }
     }
 ```
@@ -87,7 +87,7 @@ PathfindingRetro.findpath -> wrap in anti-y-cell overflow condition
     } else if (num3 > 478) { //...
 ```
 
-PathfindingRetro.loadSprites -> exclude lineOfSight & LGN44
+PathfindingRetro.loadSprites -> exclude LGN44
 ```csharp
     // exemple
     if (mapHandler[num] != null)
@@ -96,10 +96,6 @@ PathfindingRetro.loadSprites -> exclude lineOfSight & LGN44
     	{
     		this.closelist.Add(num);
     	}
-        // else if (mapHandler[num].lineOfSight)
-    	// {
-    	//	this.closelist.Add(num);
-    	// }
 	else if (mapHandler[num].layerGroundNum == 44) // add
 	{
 		this.closelist.Add(num);
