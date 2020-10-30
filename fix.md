@@ -1,4 +1,4 @@
-# Les fixs pour un retro sans bugs
+# Fixs pour retro
 ## Par Plume
 
 ### Combats
