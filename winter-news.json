@@ -1,5 +1,15 @@
 [
     {
+        "title": "Winter v2.0.0-alpha.3",
+        "date": "30 octobre 2020",
+        "time": "01:24",
+        "changes": {
+            "corrections": [
+                "Mode banque : remplacement de 'door' par 'path'"
+            ]
+        }
+    },
+    {
         "title": "Winter v2.0.0-alpha.2",
         "date": "26 octobre 2020",
         "time": "03:30",
