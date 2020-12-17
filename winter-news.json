@@ -9,7 +9,7 @@
             ],
             "corrections": [
                 "Mode banque/phenix : pris en compte lors de l'effacement du trajet",
-                "Mode phenix : intégré au script final",
+                "Mode phenix : intégré au script final"
             ],
             "nouveautées": [
                 "Le bouton de gestion de phenix est désormais disponible",
