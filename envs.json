@@ -1,5 +1,5 @@
 {
-  "desktop": "-base-env",
+  "desktop": "3.1.1",
   "touch": "-base-env",
   "retro": "-base-env",
   "winter": "2.0.0-pre-alpha.2"
