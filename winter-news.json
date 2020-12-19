@@ -1,5 +1,19 @@
 [
     {
+        "title": "Winter v2.0.0-beta.2",
+        "date": "19 décembre 2020",
+        "time": "04:10",
+        "changes": {
+            "corrections": [
+                "La taille de la carte est désormais correcte, Brakmar est accessible"
+            ],
+            "nouveautées": [
+                "Nouveau design pour l'espace de selection de trajets",
+                "Les trajets sont désormais automatiquement taggés 'récoltes', 'combats', 'banque' et|ou 'phenix'"
+            ]
+        }
+    },
+    {
         "title": "Winter v2.0.0-beta.1",
         "date": "17 décembre 2020",
         "time": "21:25",
