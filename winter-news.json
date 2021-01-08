@@ -1,12 +1,13 @@
 [
     {
-        "title": "Winter v2.0.0-beta.5",
-        "date": "02 janvier 2021",
-        "time": "00:30",
+        "title": "Winter v2.0.0-beta.7",
+        "date": "08 janvier 2021",
+        "time": "19:55",
         "changes": {
             "corrections": [
-                "Les trajets ne se sauvegardaient pas à cause d'une fonctionnalité encore en cours de conception",
-                "Activation d'une solution qui multiplie par 5 la vitesse de chargement de la carte et rend le logiciel plus fluide à l'usage"
+                "La suppression des fleches bank et phenix est désormais prise en compte",
+                "Amélioration des performances",
+                "Avancement sur le mode avancé (par encore dispo)"
             ]
         }
     }
