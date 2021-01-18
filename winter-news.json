@@ -1,5 +1,18 @@
 [
     {
+        "title": "Winter v2.0.0-beta.8",
+        "date": "19 janvier 2021",
+        "time": "00:35",
+        "changes": {
+            "corrections": [
+                "Il est désormais possible de changer le nom d'un trajet",
+                "Accéleration du chargement des scripts au lancement de Winter",
+                "Refonte du système de sauvegarde pour réduire son impact sur les performances du logiciel (désactivé pour le moment)",
+                "Intégration au module de traduction de Snowbox (désactivé pour le moment)"
+            ]
+        }
+    },
+    {
         "title": "Winter v2.0.0-beta.7",
         "date": "08 janvier 2021",
         "time": "19:55",
