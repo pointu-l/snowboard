@@ -5,7 +5,7 @@
         "time": "00:35",
         "changes": {
             "corrections": [
-                "Il est désormais possible de changer le nom d'un trajet",
+                "Il est désormais possible de changer le nom d'un trajet (nécessite Snowbox >= v1.4.2)",
                 "Accéleration du chargement des scripts au lancement de Winter",
                 "Refonte du système de sauvegarde pour réduire son impact sur les performances du logiciel (désactivé pour le moment)",
                 "Intégration au module de traduction de Snowbox (désactivé pour le moment)"
